@@ -1,6 +1,7 @@
 body {
     background-size: cover;
     font-family: 'Dosis', sans-serif;
+    color: white;
     margin: 0;
 
     /* Disable text selection, or your app will feel like a web page */
@@ -19,12 +20,6 @@ body {
             animation: fadein 2s;
 }
 
-#buttons {
-    color: white;
-    float: right;
-    margin-right: 2%;
-}
-
 .box {
     width: 20%;
     padding: 20px;
@@ -36,33 +31,20 @@ body {
 }
 
 h1 {
-    color: white;
     font-size: 35px;
-}
-
-h2 {
-    color: white;
 }
 
 a {
     color: white;
-}
+} 
 
 p {
-    color: white;
     font-size: 35px;
 }
 
 /* Title Date & Time */
-.date {
-    width: 100%;
-    display: block;
-}
-
 .date p { 
     padding-left: 40px;
-    color: white;
-    font-family: 'Dosis', sans-serif;
     font-size: 60px;
 }
 

@@ -88,6 +88,6 @@ expressApp.post('/news', async(req, res) => {
   res.send(payload);
 })
 
-expressApp.listen(8888, () => {
-  console.log('Backend server running on port 8888.')
+expressApp.listen(process.env.PORT || 8888, () => {
+  console.log('Backend server running..')
 })

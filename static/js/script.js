@@ -1,7 +1,6 @@
 let user_name;
 
 $(document).ready(function () { 
-    // There's definitely a better way to do this..
     $.ajax({
         url: "http://localhost:8888/settings",
         type: 'POST',
