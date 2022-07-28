@@ -1,10 +1,13 @@
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config()
+}
+
 const { app, BrowserWindow, shell } = require('electron')
 const path = require('path')
 const electron = require('electron');
 const express = require('express');
 const expressApp = express();
 const axios = require('axios');
-require('dotenv').config()
 
 const createWindow = () => {
   var screenElectron = electron.screen;
