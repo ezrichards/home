@@ -16,7 +16,11 @@ to add more data of choice.
 The .env file should contain the following values:
 
 `PORT`: The port the web application should run on (default 8888).
-`WEATHER_API_KEY`: The API key to (OpenWeatherMap)[https://openweathermap.org] for weather integration.
-`NEWS_API_KEY`: The API key to (NewsAPI)[https://newsapi.org] for news integration.
+
+`WEATHER_API_KEY`: The API key to [OpenWeatherMap](https://openweathermap.org) for weather integration.
+
+`NEWS_API_KEY`: The API key to [NewsAPI](https://newsapi.org) for news integration.
+
 `LOCATION`: The location to use in weather queries.
+
 `NAME`: The name to display on the home page.
